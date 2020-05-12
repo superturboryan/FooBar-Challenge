@@ -116,6 +116,7 @@ public class Solution {
             
             // If head is equal to target
             if(t.equals(new Tile(x,y))) {
+                // Return right away, this is our answer
                 return moves + path.get(t);
             }
             
