@@ -8,8 +8,6 @@ Thoughts:
 public class Solution {
     
     public static void main(String[] args) {
-        // int[][] ranges = getRangesToCheck(17, 5);
-        // System.out.println(Arrays.toString(ranges));
         int answer = solution(0, 3);
         System.out.printf("\nAnswer:%d \n",answer);
     }
