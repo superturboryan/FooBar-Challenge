@@ -1,5 +1,4 @@
-Elevator Maintenance
-====================
+# Elevator Maintenance
 
 You've been assigned the onerous task of elevator maintenance - ugh! 
 
@@ -32,7 +31,7 @@ then these versions must be sorted ascending based on how many numbers they have
 
 The number of elements in the list l will be at least 1 and will not exceed 100.
 
--- Java cases --
+## Test cases
 Input:
 Solution.solution({"1.11", "2.0.0", "1.2", "2", "0.1", "1.2.1", "1.1.1", "2.0"})
 Output:

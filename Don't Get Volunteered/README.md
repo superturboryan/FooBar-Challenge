@@ -1,5 +1,4 @@
-Don't Get Volunteered!
-======================
+# Don't Get Volunteered!
 
 As a henchman on Commander Lambda's space station, you're expected to be resourceful, smart, and a quick thinker. 
 It's not easy building a doomsday device and capturing bunnies at the same time, after all! 
@@ -40,7 +39,7 @@ Both the source and destination squares will be an integer between 0 and 63, inc
 |56|57|58|59|60|61|62|63|
 -------------------------
 
--- Java cases --
+## Test cases
 Input:
 Solution.solution(19, 36)
 Output:
