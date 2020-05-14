@@ -6,10 +6,16 @@ Thoughts:
 -Construct answer array
 
 -STOCHASTIC MATRIX + MARKOV CHAINS!
+
+-The problem is an Absorbing Markov Chain
+-The solution uses Matrix Inverse using Gaussian Elimination
 */
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.*;
+import java.util.Queue;
 
 public class Solution {
         
@@ -29,7 +35,7 @@ public class Solution {
             // s4 has probability 1/7   = 0.142
             // s5 has probability 9/14  = 0.643
 
-        int[] answer = solution(input);
+        int[] answer = answer(input);
         System.out.println("\n"+answer);
     }
 
@@ -60,8 +66,8 @@ public class Solution {
                 if (i == 0) {
 
                     // If target level is not terminal
-                    if (!terminalLevels.contains(j)) 
-                        continue;
+                    // if (!terminalLevels.contains(j)) 
+                    //     continue;
                     
                     double totalProb = (double)digit / (double)levelSums.get(i);
                     probabilityForEachLevel[j] = totalProb;
@@ -125,5 +131,4 @@ public class Solution {
         
         return terms;
     }
-
 }
